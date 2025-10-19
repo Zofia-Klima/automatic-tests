@@ -1,0 +1,19 @@
+{
+  "name": "cypress-projekt",
+  "version": "1.0.0",
+  "description": "test automation cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/checkbox.cy.js"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "testing"
+  ],
+  "author": "Zofia Klima",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.4.0"
+  }
+}
